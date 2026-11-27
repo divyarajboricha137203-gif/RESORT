@@ -1,0 +1,3 @@
+id,created_at,checkin,checkout,persons,adults,children,room_type
+60ac0b29-b235-418f-a345-102005b0bdce,2026-10-13T12:37:56.550,2026-10-17T12:37,2026-10-18T12:37,1,1,0,royal
+7494efd5-cb57-4373-9acf-1ba38979af08,2026-11-27T11:17:04.729,2026-11-27T11:16,2026-11-30T11:16,4,2,2,delux

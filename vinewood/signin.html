@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sign In — WINEWOOD</title>
+  <style>
+    :root{
+      --brand:#183e30;
+      --accent:#f3f2ed;
+      --muted:#4b6b57;
+      --radius:12px;
+      --ff: "Times New Roman", Times, serif;
+    }
+    html,body{height:100%;margin:0;font-family:var(--ff);background:linear-gradient(180deg,var(--accent),#fff);color:var(--brand);}
+    .wrap{min-height:100%;display:flex;align-items:center;justify-content:center;padding:32px;}
+    .card{
+      width:100%;max-width:420px;background:#fff;border-radius:var(--radius);box-shadow:0 10px 30px rgba(24,62,48,0.12);
+      padding:28px 26px;box-sizing:border-box;text-align:left;
+    }
+    .brand{display:flex;flex-direction:column;align-items:center;margin-bottom:18px}
+    .brand h1{margin:0;color:var(--brand);letter-spacing:2px;font-size:20px}
+    .brand p{margin:6px 0 0;font-size:13px;color:var(--muted)}
+    label{display:block;margin-top:12px;margin-bottom:6px;font-weight:600;color:var(--brand)}
+    input[type="email"],input[type="password"]{
+      width:100%;padding:10px 12px;border-radius:8px;border:1px solid #dcdcdc;background:var(--accent);box-sizing:border-box;color:var(--brand);
+      font-family:var(--ff);font-size:15px;
+    }
+    .row{display:flex;align-items:center;justify-content:space-between;margin-top:14px}
+    .remember{display:flex;align-items:center;gap:8px;font-size:14px;color:var(--muted)}
+    .actions{display:flex;gap:12px;align-items:center;margin-top:18px}
+    .btn{
+      background:var(--brand);color:#fff;border:none;padding:10px 18px;border-radius:8px;cursor:pointer;font-size:15px;text-decoration:none;
+      display:inline-block;
+    }
+    .btn.secondary{background:#fff;color:var(--brand);border:1px solid var(--brand)}
+    .help{margin-top:14px;font-size:13px;color:var(--muted);text-align:center}
+    .footer-links{display:flex;justify-content:center;gap:12px;margin-top:12px}
+    .footer-links a{color:var(--brand);text-decoration:underline;font-size:14px}
+    .topbar{position:absolute;left:20px;top:18px}
+    .topbar a{color:var(--brand);text-decoration:none;font-weight:600}
+    @media(max-width:480px){.card{padding:20px}}
+  </style>
+</head>
+<body>
+  <div class="topbar"><a href="index.html">&larr; Home</a></div>
+
+  <div class="wrap">
+    <main class="card" role="main" aria-labelledby="signinTitle">
+      <header class="brand">
+        <h1 id="signinTitle">WINEWOOD RESORT</h1>
+        <p>Sign in to manage bookings & offers</p>
+      </header>
+
+      <form method="post" action="#" autocomplete="on" novalidate>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="you@domain.com" required>
+
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" placeholder="••••••••" required>
+
+        <div class="row">
+          <label class="remember"><input type="checkbox" name="remember"> Remember me</label>
+          <a href="#" style="color:var(--brand);font-size:14px;text-decoration:underline">Forgot?</a>
+        </div>
+
+        <div class="actions">
+          <button type="submit" class="btn">Sign In</button>
+          <a href="index.html#main11" class="btn secondary">Book Now</a>
+        </div>
+
+        <p class="help">New here? <a href="rooms.html">View Packages</a></p>
+
+        <div class="footer-links" aria-hidden="false">
+          <a href="privacy.html">Privacy</a>
+          <a href="mailto:info@winewoodresort.com">Contact</a>
+        </div>
+      </form>
+    </main>
+  </div>
+</body>
+</html>
+```//
