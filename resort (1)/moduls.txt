@@ -1,0 +1,158 @@
+# Winewood Resort Website – Modules
+
+## 1. Home Module
+
+* Resort introduction
+* Hero/banner section
+* Welcome message
+* About Winewood Resort
+* Featured rooms
+* Featured food
+* Resort highlights
+* Book Now button
+* Navigation menu
+* Footer
+
+## 2. Room & Suite Module
+
+* Display available rooms
+* Standard rooms
+* Deluxe rooms
+* Luxury suites
+* Mountain-view rooms
+* Room images
+* Room facilities
+* Room pricing
+* Availability
+* Room details
+* Book Room option
+
+## 3. Café / Restaurant Module
+
+* Winewood Café
+* Restaurant introduction
+* Food gallery
+* Food categories
+* Menu
+* Special dishes
+* Dining experience
+* Café ambience
+* Food pricing
+* Table reservation
+
+## 4. Booking Module
+
+* Room booking
+* Check-in date
+* Check-out date
+* Number of guests
+* Room selection
+* Customer details
+* Booking confirmation
+* Booking ID
+* Booking summary
+
+## 5. Amenities Module
+
+* Swimming pool
+* Bar
+* Restaurant
+* Mountain views
+* Tent facilities
+* Parking
+* Wi-Fi
+* Room service
+* Event facilities
+* Other luxury facilities
+
+## 6. Gallery Module
+
+* Resort images
+* Room images
+* Restaurant images
+* Food images
+* Swimming pool
+* Mountain/nature images
+* Events
+* Image slider/gallery
+
+## 7. Customer Module
+
+* Customer registration
+* Customer login
+* Profile
+* Booking history
+* Current bookings
+* Cancel booking
+* Contact information
+* Feedback/reviews
+
+## 8. Contact Module
+
+* Contact form
+* Name
+* Email
+* Phone
+* Message
+* Resort address
+* Phone number
+* Email
+* Google Maps/location
+* Social media links
+
+## 9. Admin Module
+
+* Admin login
+* Admin dashboard
+* Add room
+* Update room
+* Delete room
+* Manage room availability
+* Add/edit/delete menu items
+* Manage bookings
+* Manage customers
+* Manage gallery
+* Manage amenities
+* View feedback
+* Generate booking reports
+
+## 10. Future Scope Module
+
+* Online payment
+* Mobile application
+* Eco-tourism packages
+* Wine tasting
+* Vineyard tours
+* Spa and wellness
+* Yoga and meditation
+* Wedding/event booking
+* Corporate event booking
+* Trekking
+* Cycling
+* Boating
+* Mini water park
+* Theatre
+* Expanded resort facilities
+
+## Website Flow
+
+**User**
+→ Home
+→ Explore Resort
+→ Rooms / Café / Amenities / Gallery
+→ Select Service
+→ Booking
+→ Customer Details
+→ Confirmation
+→ Booking History
+
+**Admin**
+→ Admin Login
+→ Dashboard
+→ Manage Rooms
+→ Manage Café/Menu
+→ Manage Bookings
+→ Manage Customers
+→ Manage Gallery
+→ Manage Amenities
+→ Reports & Feedback
